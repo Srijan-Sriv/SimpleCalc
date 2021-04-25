@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CalculatorStyle.css">
+    <title>CalcYouNow</title>
+</head>
+<body>
+    <main>
+        <h1>A Very Basic Calculator</h1>
+        <div id="table">
+            <div id="calc">
+                <div id="display">
+                    <div id="equation">
+                    <p>
+
+                    </p>
+                    </div>
+                    <div id="current">
+                        
+                    </div>
+                </div>
+                <div id="numpad">
+                    <button class="clear" onclick="clearBoth(0)">C</button>
+                    <button class="clear" onclick="clearBoth(1)">CE</button>
+                    <button class="operator" id="equals" onclick="getOperator(0)">=</button>
+                    <button class="operator" onclick="getOperator(1)">+</button>
+                    <button class="number" onclick="getNum(1)">1</button>
+                    <button class="number" onclick="getNum(2)">2</button>
+                    <button class="number" onclick="getNum(3)">3</button>
+                    <button class="operator" onclick="getOperator(2)">-</button>
+                    <button class="number" onclick="getNum(4)">4</button>
+                    <button class="number" onclick="getNum(5)">5</button>
+                    <button class="number" onclick="getNum(6)">6</button>
+                    <button class="operator" onclick="getOperator(3)">*</button>
+                    <button class="number" onclick="getNum(7)">7</button>
+                    <button class="number" onclick="getNum(8)">8</button>
+                    <button class="number" onclick="getNum(9)">9</button>
+                    <button class="operator" onclick="getOperator(4)">/</button>
+                    <button class="operator" onclick="getOperator(5)">%</button>
+                    <button class="number" id="longbutton" onclick="getNum(0)">0</button>
+                    <button class="decimal" onclick="decimal(0)">.</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="CalculatorScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+/* I cannot prevent the numbers from overflowing from the display if too many of them are added. It looks like I need to
+ learn jQuery or something similar. */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+html,body
+{
+    min-width: 100rem;
+
+    background-color:rgb(43, 20, 146);
+}
+h1
+{
+    text-align: center;
+    font-size: 5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+#table
+{
+    margin: 1rem;
+    background-color:rgba(187, 140, 118, 0.377);
+    border-style: solid;
+    width: 80rem;
+    height: 50rem;
+    transform: translate(-50%,0%);
+    margin-left: 50%;
+}
+#calc
+{
+    transform: translate(-50%,8%);
+    margin-left: 50%;
+
+    border-style: solid;
+    border-radius: 2rem;
+    background-color: aliceblue;
+    width: 28rem;
+    height: 44rem;
+}
+#display
+{
+    transform: translate(-50%,-50%);
+    margin-left: 50%;
+    margin-top: 25%;
+
+    width: 25rem;
+    height: 12rem;
+    background-color: black;
+    border-radius: 2rem;
+    overflow-wrap: break-word;
+}
+#numpad
+{
+    transform: translate(-50%,-50%);
+    margin-left: 50%;
+    margin-top: 33%;
+    padding-left: 1.2rem;
+
+    width: 25rem;
+    height: 27rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: black;
+}
+button
+{
+    margin: 0.2rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+
+    border-radius: 3rem;
+    border-style: solid;
+    box-shadow: 0 0.4rem rgb(71, 66, 66);
+    cursor: pointer;
+    outline: 0rem;
+    width: 5rem;
+    height: 4rem;
+    font-size: large;
+}
+#longbutton
+{
+    width: 10rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.empty
+{
+    background-color: aliceblue;
+    border: none;
+    box-shadow: none;
+    cursor: auto;
+}
+button:hover
+{
+    background-color:rgb(218, 210, 210)
+}
+button:active
+{
+  background-color:rgb(28, 204, 57);
+  box-shadow: 0 0.2rem rgb(51, 56, 61);
+  transform: translateY(0.4rem);
+}
+#equals
+{
+    background-color: red;
+}
+#equation,#current
+{
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(4, 105, 4);
+}
+#current
+{
+    font-size: 5rem;
+    color: rgb(45, 189, 45);           
+}
