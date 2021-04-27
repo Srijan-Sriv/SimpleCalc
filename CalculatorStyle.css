@@ -68,6 +68,7 @@ h1
 }
 button
 {
+    position: relative;
     margin: 0.2rem;
     margin-top: 1rem;
     margin-left: 0.3rem;
